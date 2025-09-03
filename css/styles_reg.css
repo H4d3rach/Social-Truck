@@ -1,0 +1,21 @@
+.form-input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    border-bottom: 1px solid #252525; 
+    padding-top: 0;
+    padding-bottom: 10px; 
+    text-align: center;
+    background-color: transparent;
+}
+
+.btn-custom-outline-primary {
+    border-color: #ff0000;
+    color: #ff0000;
+  }
+  
+  .btn-custom-outline-primary:hover {
+    background-color: #ff0000; 
+    color: #ffffff; 
+  }

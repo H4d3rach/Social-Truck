@@ -1,0 +1,53 @@
+.nav-link{
+    display: flex;
+    position: relative;
+    transition: all 200ms ease;
+    &::before{
+        content: '';
+        position:absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 4px;
+        background-color:rgb(255, 0, 0);
+        opacity: 0;
+        transition: all 200ms ease;
+    }
+   .icono{
+        width: 32px;
+        margin-right: 32px;
+    }
+
+    &:hover{
+        background-color: #FEF0F4;
+        color: rgb(255, 0, 0);
+
+        &::before{
+            opacity: 1;
+        }
+    }
+}
+.custom-container{
+    background-image: url('imagenes/imagen.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.col-md-5 label{
+    text-align: center;
+}
+.tabla tbody{
+    height: 50px;
+    overflow-y: auto;
+    width: 100%;
+}
+.tabla thead,
+.tabla tbody,
+.tabla td,
+.tabla th{
+    display: block;
+}
+.tabla tbody, td,
+.tabla thead > tr >th{
+    border-bottom-width: 0;
+}
+
